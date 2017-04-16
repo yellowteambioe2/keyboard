@@ -1,0 +1,14 @@
+sudo apt-get install matchbox-keyboard
+
+# create a file on the Desktop called keyboard.sh
+
+# write in the file:
+#!/bin/bash
+matchbox-keyboard
+
+# Then open a terminal and write:
+cd Desktop
+chmod +x keyboard.sh
+
+# Reboot
+# Now you can double click the file and your keyboard will appear
